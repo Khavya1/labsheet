@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int main() 
+{
+int s,h,m;
+printf("Enter the second:");
+scanf("%d",&s);
+h=s/3600;
+printf("Hour=%d\n",h);
+m=s/60;
+printf("Minute=%d\n",m);
+printf("Second =%d\n",s);
+}
