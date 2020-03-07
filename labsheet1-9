@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int n,n1,n2,r1,r2,r3,rev;
+    printf("enter any three digit number");
+    scanf("%d",&n);
+    r1=n%10;
+    n1=n/10;
+    r2=n1%10;
+    n2=n1/10;
+    r3=n2%10;
+    rev=r1*100+r2*10+r3;
+    printf("The reverse of number is %d",rev);
+    return 0;
+}
