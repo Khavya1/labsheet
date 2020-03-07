@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number in decimal:");
+    scanf("%d",&a);
+    printf("The number in octal is:%o\n",a);
+    printf("The number in hexadecimal is %x\n",a);
+    return 0;
+}
