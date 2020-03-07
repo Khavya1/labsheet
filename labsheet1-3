@@ -1,0 +1,13 @@
+#include<stdio.h>
+#define pi 3.14
+#include<math.h>
+int main()
+{
+    float r,a,c;
+    printf("Enter the radius:");
+    scanf("%d",&r);
+    a=pi*pow(r,2);
+    printf("The area of the circle is:%f\n",a);
+    c=2*pi*r;
+    printf("The circumference is:%d\n",c);
+}
