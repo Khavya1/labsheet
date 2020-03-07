@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int l,sa;
+    printf("Enter the length of cube:");
+    scanf("%d",&l);
+    sa=6*pow(l,2);
+    printf("The surface area of cube is:%d\n",sa);
+}
+
