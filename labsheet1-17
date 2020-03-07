@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,s;
+    printf("Enter the two integer:");
+    scanf("%d%d",&a,&b);
+    s=(a>b)?a+b:a-b;
+    printf("s=%d",s);
+    return 0;
+}
